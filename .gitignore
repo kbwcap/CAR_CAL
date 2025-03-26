@@ -1,0 +1,11 @@
+# .gitignore 예시 (Visual Studio용)
+.vs/
+*.user
+*.suo
+*.log
+*.obj
+*.exe
+*.pdb
+*.cache
+bin/
+obj/
