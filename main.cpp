@@ -3,11 +3,16 @@
 
 class Cal {
 public:
+	int GetSum(int a, int b) {
+		return  a + b;
+	}
 
 };
 
-TEST(t1, t2) {
-	EXPECT_EQ(1, 1);
+TEST(TEAMB, test_add) {
+	Cal cal;
+	int ret = cal.GetSum(1, 1);
+	EXPECT_EQ(ret, 2);
 }
 
 int main() {
